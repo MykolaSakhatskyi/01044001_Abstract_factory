@@ -2,7 +2,7 @@
 #include "Components.h"
 #include "CarConfigurator.h"
 #include "Car.h"
-#include "memory"
+#include <memory>
 using namespace std;
 
 void PrintPcConfiguration(const string& configName, shared_ptr <Car> car) {
